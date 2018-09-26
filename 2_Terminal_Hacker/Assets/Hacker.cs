@@ -38,7 +38,7 @@ public class Hacker : MonoBehaviour {
 		{
 			level = 0;
 			ShowMainMenu();
-		} 
+		}
 		else if (currentScreen == Screen.MainMenu)
 		{
 			RunMainMenu(input);
@@ -48,6 +48,7 @@ public class Hacker : MonoBehaviour {
 			EnterPassword(input);
 		}
 	}
+
 	void RunMainMenu(string input)
 	{
 		bool isValidLevel = (input == "1" || input == "2" || input == "3");
